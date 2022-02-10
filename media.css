@@ -1,0 +1,166 @@
+@media screen and (max-width: 1510px) {
+
+    #navigation {
+        max-width: 800px;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    
+    #navigation li {
+        padding: 20px;
+        font-size: medium;
+        
+    }
+    
+    
+}
+
+@media screen and (max-width: 1000px){
+
+    #navigation {
+        max-width: 600px;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    
+    #navigation li {
+        padding: 20px;
+        font-size: medium;
+        display: inline;
+    }
+    
+}
+@media screen and (max-width: 880px) {
+    #container{
+        width: 100%;
+        display: block;
+        
+        
+    }
+    .event {
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .sondage {
+        width:90%;
+        margin-top: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+    .inscription {
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+
+    
+}
+
+@media screen and (max-width: 640px) {
+
+    .bannière{
+        width: auto;
+    }
+
+    ul {
+        list-style-type: none;
+        display: block;
+        
+    }
+    li {
+        padding-top: 5px;
+        font-size: larger ;
+    }
+
+    #logo {
+        margin: 15px;
+        margin-left: 3%;
+    }
+
+    #navigation {
+        max-width: 400px;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    #navigation li {
+        padding: 20px;
+        font-size: medium;
+        display: inline;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .bannière {
+        display: none;
+    }
+
+    header {
+        border-bottom: 1px solid black;
+    }
+
+    .photo {
+        height: 150px;
+    }
+    #navigation {
+        margin-top: 10px;
+        max-width: 300px;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    #navigation li {
+        padding: 5px;
+        font-size: medium;
+        display:inline-block
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .chapeau_gauche {
+        display: none;
+    }
+    .chapeau_droite{
+        display: none;
+    }
+    li {
+        padding-top: 5px;
+        font-size: medium;
+    }
+    #navigation {
+        margin-top: 10px;
+        max-width: 150px;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    #navigation li {
+        padding: 3px;
+        font-size: small;
+        display:inline-block
+    }
+
+    .event {
+
+        font-size: 1em;
+
+    }
+
+    .sondage {
+
+        font-size: 1em;
+
+    }
+    .inscription {
+
+        font-size: 1em;
+
+    }
+    
+}
