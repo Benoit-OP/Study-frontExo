@@ -1,28 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="media.css">
     <title>Studhelp</title>
 </head>
     <body>
-        <header class="header_page"> 
+        <header id="header_page"> 
           <img id="logo" src="images/icones/en-train-detudier.png" alt="logo" width="110px" height="90px">
                   <nav>
-
+                      <ul>
+                        <li><a href="#">Faire un don</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                        <li> Contact</li>
+                      </ul>
                   </nav>     
         </header>
 
+        <div class="bannière">
+          <img src="images/campus-banniere2.jpeg" alt="Bannière d'un campus en vue aérienne" width="100%" height="300px">
+        </div>
+        <div id="navigation" role="navigation">
+          <span id="rubriques">
+            <ul class="menu_secondaire">
+              <li><a href="#">Aide à la Culture</a></li>
+              <li><a href="#">Bourse étudiante</a></li>
+              <li><a href="#">Logements</a></li>
+              <li><a href="#">Aide Sociale</a></li>
+              <li><a href="#">Mobilité</a></li>
+            </ul>
+
+
+          </span>
+
+        </div>
+          
         <main>
-          <div class="bannière">
-              <img src="images/campus-banniere2.jpeg" alt="Bannière d'un campus en vue aérienne" width="100%" height="300px">
-          </div>
-          <div class="grande_titre"> 
+          
+          <div class="grand_titre"> 
             <img class="chapeau_gauche" src="images/icones/chapeau-etudiant.png" alt="chapeau étudiant" width="80px" height="80px">
-            <img class="chapeau_droite" src="images/icones/chapeau-etudiant.png" alt="chapeau étudiant" width="80px" height="80px">
-            <h1>Studhelp, l'association d'aide aux étudiants</h1>         
+            <h1>Studhelp, l'association d'aide aux étudiants</h1>
+            <img class="chapeau_droite" src="images/icones/chapeau-etudiant.png" alt="chapeau étudiant" width="80px" height="80px">         
           </div>    
           <div class="para_block">
             
@@ -39,12 +60,39 @@
 
             <section id="equipe">
               <h2>Nos équipes</h2>
-                <p>Nous sommes environ 20 à 40 membres sur chaque établissement où nous sommes établis. Nous sommes en constante évolution et des bénévoles n'hésites pas à nous rejoindre pour la prospection et l'accueil des étudiants dans nos locaux.
-                  Que vous soyez en license , en master ou en doctorat vous pouvez nous rejoindre à tous moment.
+                <p>Nous sommes environ 20 à 40 membres sur chaque établissement où nous sommes établis. Nous sommes en constante évolution et des bénévoles n'hésites pas à nous rejoindre pour la prospection et 
+                  l'accueil des étudiants dans nos locaux. Que vous soyez en license , en master ou en doctorat vous pouvez nous rejoindre à tous moment.
                 </p>
                 <img class="photo" src="images/photo_equipe.jpg" alt="Photo d'une de nos équipes">
+
+                  <p>Pour nous contacter c'est très simple: il suffit de remplir un formulaire de contact plus haut sur la page soit directement par nos réseaux sociaux! Tu peux également faire un don dans la rubrique ci-dessous 
+                    ou même nous rencontrer par différents Évênements que nous organisons; Je t'invite à aller sur notre page dédiée.</p>
             </section>
             
+            <section id="container">
+              
+            <div class="event">
+              <a href="#" class="fill-div">
+                <img class="illustration" src="images/event.png" alt="illustation calendrier avec punaise">
+                <span>Évênements!</span> 
+              </a>
+            </div>
+          
+            <div class="sondage">  
+              <a href="#" class="fill-div">        
+                <img class="illustration" src="images/Sondage.jpg" alt="illustation sondage">
+                <span>Nos sondages</span> 
+              </a>
+            </div>
+            <div class="inscription">
+              <a href="#" class="fill-div">
+              <img class="illustration" src="images/LogoInscription.jpg" alt="image feuille d'inscription">
+              <span>Inscrivez-vous chez Studhelp</span>
+            </a>
+            </div>
+            </section>
+          
+
           </div>    
                   
   <!--  
