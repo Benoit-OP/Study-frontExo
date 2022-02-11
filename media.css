@@ -93,6 +93,13 @@
         font-size: medium;
         display: inline;
     }
+
+    .network {
+        display: inline-block; 
+        padding-left: 25%;
+        
+        
+    }
 }
 
 
