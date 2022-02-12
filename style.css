@@ -41,7 +41,6 @@ main {
     width: 100%;
     max-width: 1200px;
     margin: auto;
-    background-color: aqua;
 
 }
 
@@ -73,6 +72,9 @@ main {
     display: flex;
     justify-content: space-around;
     padding: 5px;
+    background-color: aliceblue;
+    border-radius: 10px;
+
     
 }
 
@@ -104,6 +106,7 @@ h4{
 p {
     padding: 10px;
 }
+
 
 #container{
     width: 100%;
@@ -147,11 +150,26 @@ p {
     
 }
 
+a:hover {
+    color: rgb(0, 248, 124);
+}
+
+
+
+a:visited {
+    color: black;
+}
+
 a.fill-div {
     display: block;
     height: 100%;
     width: 100%;
     text-decoration: none;
+    color: white;
+}
+
+a.fill-div:hover {
+    color: red;
 }
 
 .logo-network{
@@ -174,6 +192,11 @@ a.fill-div {
     border: 3px solid #2A231F;
     border-radius: 60px;
     margin-top: 15px;
+}
+
+.button-form {
+    display: flex;
+    margin-left: 90%;
 }
 
 footer {
